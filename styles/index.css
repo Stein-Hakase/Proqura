@@ -1,0 +1,113 @@
+
+@import url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+@font-face{
+    font-family: "Recoleta";
+    src: url(./Recoleta-RegularDEMO.otf) format("opentype");
+}
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 1600px;
+    font-family: 'Circular Std Book';
+}
+*{
+    box-sizing: border-box;
+}
+/* Typography */
+h1{
+    font-family: 'Recoleta';
+    font-size: 64px;
+    line-height: 107.21%;
+    color: #FFF8F8;
+}
+h1 span{
+   color: #78e4d7 ; 
+}
+/* Header style start here */
+header{
+    background: #4031B7;
+    padding-bottom: 9.625rem;
+}
+.header__contact{
+    padding: 2.25rem 0;
+    color:  #B6D2E3;
+}
+
+/* Nav Bar */
+.navbar{
+    max-width: 1160px;
+    margin-bottom: 7rem;
+}
+#navbarSupportedContent{
+    max-width: 929px;
+}
+.nav-link{
+    font-size: 18px;
+    line-height: 23px;
+    color: #B6D2E3;
+}
+.nav-link:hover{
+        text-decoration: none;
+        color: #60CBBE;
+    }
+
+.header__hero-img{
+    box-shadow: -35px 24px 0px 3px  rgba(48, 32, 175, 0.5);
+    width: 100%;
+}
+.header__signup-btn, .header__login-btn{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #B6D2E3;
+    outline: none;
+    background: none;
+    border: none;
+}
+.header__signup-btn{
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid #B6D2E3;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    }
+/* Header hero */
+.header__hero{
+    max-width: 1345px;
+}
+.header__hero p{
+    font-size: 20px;
+    line-height: 32px;
+    color: #B6D2E3;
+    margin-top: 2.25rem;
+}
+@media only screen and (min-width:1150px) and (max-width:1576px){
+    .header__hero{
+        max-width: 1220px;
+    }
+}
+.header__col-img{
+    right: 0;
+}
+.header__book-btn{
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #60CBBE;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    padding: 12px 24px;
+    margin-top: 3.25rem ;
+}
+.header__qustion-link{
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-left: 2.375rem;
+}
+.header__qustion-link:hover{
+    text-decoration: none;
+    color: #60CBBE;
+}
