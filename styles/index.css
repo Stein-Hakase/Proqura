@@ -4,6 +4,10 @@
     font-family: "Recoleta";
     src: url(./Recoleta-RegularDEMO.otf) format("opentype");
 }
+@font-face{
+    font-family: "Circular Std Book";
+    src: url(./Circular-Std-Book.otf) format("opentype");
+}
 body{
     margin: 0;
     padding: 0;
