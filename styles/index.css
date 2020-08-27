@@ -57,10 +57,13 @@ header{
 
 /* Nav Bar */
 .navbar{
-    max-width: 1160px;
+    /* max-width: 1160px; */
     margin-bottom: 7rem;
     background: #4031B7;
 
+}
+.full-width-nav{
+    width: 100%;
 }
 #navbarSupportedContent{
     max-width: 929px;
