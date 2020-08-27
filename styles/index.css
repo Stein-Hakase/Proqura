@@ -194,3 +194,31 @@ margin-top: 5rem;
     font-size: 16px;
     line-height: 27px;
 }
+/*  Manage work Section*/
+.manage-work{
+    padding-top: 10.6rem;
+    padding-bottom: 12.6rem;
+    background: url(../img/Artboard.png) right no-repeat;
+
+}
+
+.manage-work__card-logo{
+    width: 64px;
+    height: 64px;
+    background: #4031B7;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.manage-work__img{
+    width: 100%;
+    height: 100%;
+    max-height: 526px;
+    
+}
+.manage-work__cards{
+    margin-top: 3.875rem;
+}
+.manage-work__card p{
+    font-size: 16px;
+    line-height: 27px;
+}
