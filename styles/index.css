@@ -127,6 +127,9 @@ main{
     margin-top: 10rem;
 }
  /* Purchase solution section */
+ .purchase-solution{
+     padding-bottom:  13rem;
+ }
  .purchase-solution_desc{
     font-family: Circular;
     font-size: 18px;
