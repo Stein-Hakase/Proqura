@@ -27,6 +27,12 @@ h1{
 h1 span{
    color: #78e4d7 ; 
 }
+h2{
+    font-family: Recoleta;
+    font-size: 48px;
+    line-height: 65px;
+    color: #111028;
+}
 /* Header style start here */
 header{
     background: #4031B7;
@@ -114,4 +120,41 @@ header{
 .header__qustion-link:hover{
     text-decoration: none;
     color: #60CBBE;
+}
+/* ***************** */
+/* Main Section start here */
+main{
+    margin-top: 10rem;
+}
+ /* Purchase solution section */
+ .purchase-solution_desc{
+    font-family: Circular;
+    font-size: 18px;
+    line-height: 23px;
+    color: #4F4F4F;
+    margin-top: 2rem;
+ }
+ .purchase-solution_cards{
+     margin-top: 6rem;
+ }
+.purchase-solution__card-logo{
+    width: 178px;
+    height: 178px;
+    border-radius:50% ;
+    background: #4031B7;
+}
+.purchase-solution__card-title{
+    font-family: Century;
+    font-size: 24px;
+    line-height: 29px;
+    color: #17162D;
+    margin-top: 2rem;
+}
+.purchase-solution__card-text{
+    font-family: 'Circular';
+    font-size: 14px;
+    line-height: 18px;
+    color: #828282;
+    margin-top: 1rem;
+
 }
