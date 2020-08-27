@@ -198,7 +198,8 @@ margin-top: 5rem;
 .manage-work{
     padding-top: 10.6rem;
     padding-bottom: 12.6rem;
-    background: url(../img/Artboard.png) right no-repeat;
+    background: url(../img/Artboard.png) right no-repeat ;
+    background-size: contain;
 
 }
 
