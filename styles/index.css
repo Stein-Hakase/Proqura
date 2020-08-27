@@ -33,6 +33,18 @@ h2{
     line-height: 65px;
     color: #111028;
 }
+h4{
+    font-family: Recoleta;
+    font-size: 24px;
+    line-height: 33px;
+    color: #17162D;
+}
+.p-grey{
+    font-family: Circular;
+    font-size: 18px;
+    line-height: 23px;
+    color: #828282;
+}
 /* Header style start here */
 header{
     background: #4031B7;
@@ -47,6 +59,8 @@ header{
 .navbar{
     max-width: 1160px;
     margin-bottom: 7rem;
+    background: #4031B7;
+
 }
 #navbarSupportedContent{
     max-width: 929px;
@@ -160,4 +174,23 @@ main{
     color: #828282;
     margin-top: 1rem;
 
+}
+/* Procurement section */
+.procurement{
+    padding-top: 7.35rem;
+    padding-bottom: 13.75rem;
+    background: #FBFAF9;;
+}
+.procurement h1{
+    margin-bottom: 2rem;
+}
+.procurement img{
+    margin-top: 5.5rem;
+}
+.procurement__cards{
+margin-top: 5rem;
+}
+.procurement__cards p{
+    font-size: 16px;
+    line-height: 27px;
 }
